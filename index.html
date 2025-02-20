@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Saifularif</title>
+    <link rel="icon" type="image/png" sizes="50x50" href="img/logo.png" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Free Website Template" name="keywords" />
+    <meta content="Free Website Template" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Libraries -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Nav Bar Start -->
+    <div class="navbar navbar-expand-lg bg-light navbar-light">
+      <div class="container-fluid">
+        <a href="index.html" class="navbar-brand">
+          <img
+            src="img/lg.png"
+            alt="Logo"
+            width="40"
+            height="40"
+            class="d-inline-block align-text-top"
+          />
+          Saiful<u>arif</u>
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-between"
+          id="navbarCollapse"
+        >
+          <div class="navbar-nav ml-auto">
+            <a href="#home" class="nav-item nav-link active">Beranda</a>
+            <a href="#about" class="nav-item nav-link">Tentang Saya</a>
+            <a href="#service" class="nav-item nav-link">Layanan</a>
+            <a href="#testimonial" class="nav-item nav-link">Review</a>
+            <a href="#team" class="nav-item nav-link">Portfolio</a>
+            <a href="#blog" class="nav-item nav-link">Blog</a>
+            <a href="#contact" class="nav-item nav-link">Kontak</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(document).click(function (event) {
+                var clickover = $(event.target);
+                var navbarCollapse = $(".navbar-collapse");
+                var opened = navbarCollapse.hasClass("show");
+                var navbarToggler = $(".navbar-toggler");
+    
+                // Jika menu terbuka dan klik di luar navbar, tutup menu
+                if (opened && !clickover.closest('.navbar').length) {
+                    navbarToggler.click();
+                }
+            });
+        });
+    </script>
+    
+    <!-- Nav Bar End -->
+
+    <!-- Hero Start -->
+    <div class="hero" id="home">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-sm-12 col-md-6">
+            <div class="hero-content">
+              <div class="hero-text">
+                <p>Halo Semuanya... kenalkan nama saya</p>
+                <h1>Saiful Arif</h1>
+                <h2></h2>
+                <div class="typed-text">
+                  Saya seorang Front-End Web Developer Proffesional, mari
+                  berkenalan dengan saya
+                </div>
+              </div>
+              <div class="hero-btn">
+                <a class="btn" href="">Tentang Saya</a>
+                <a class="btn" href="">Kontak Saya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 d-none d-md-block">
+            <div class="hero-image">
+              <img src="img/Arif2.png" alt="Hero Image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- About Start -->
+    <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="about-img">
+              <img src="img/SERTIFIKAT.png" alt="Image" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-content">
+              <div class="section-header text-left">
+                <p>Pelajari Tentang Saya</p>
+                <h2>10 Tahun Pengalaman</h2>
+              </div>
+              <div class="about-text">
+                <p>
+                  Saya adalah seorang Front-End Web Developer dengan keahlian
+                  dalam membangun antarmuka web yang modern, responsif, dan
+                  user-friendly. Dengan pengalaman bertahun-tahun di industri
+                  teknologi, saya telah membantu berbagai perusahaan dalam
+                  menciptakan website yang tidak hanya estetis tetapi juga
+                  fungsional dan berkinerja tinggi.
+                </p>
+              </div>
+              <div class="skills">
+                <div class="skill-name">
+                  <p>Web Design</p>
+                  <p>85%</p>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="85"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <div class="skill-name">
+                  <p>Web Development</p>
+                  <p>95%</p>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="95"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <div class="skill-name">
+                  <p>Html , CSS , JavaScript</p>
+                  <p>90%</p>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <div class="skill-name">
+                  <p>Desaign Grafis</p>
+                  <p>80%</p>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <a class="btn" href="#portfolio">Lainnya</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Service Start -->
+    <div class="service" id="service">
+      <div class="container">
+        <div
+          class="section-header text-center wow zoomIn"
+          data-wow-delay="0.1s"
+        >
+          <p>Apa yang saya lakukan</p>
+          <h2>Keahlian Utama</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="fa fa-laptop"></i>
+              </div>
+              <div class="service-text">
+                <h3>Web Design</h3>
+                <p>
+                  Membangun tampilan web yang elegan dan interaktif bagi
+                  pengguna
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="fa fa-laptop-code"></i>
+              </div>
+              <div class="service-text">
+                <h3>Framework Front-End (Bootstrap, Tailwind CSS)</h3>
+                <p>
+                  Mengoptimalkan performa dan desain website dengan pengalaman
+                  pengguna yang seamless
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="fab fa-android"></i>
+              </div>
+              <div class="service-text">
+                <h3>Responsive Design</h3>
+                <p>
+                  Memastikan tampilan optimal di berbagai perangkat dan device
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="fab fa-apple"></i>
+              </div>
+              <div class="service-text">
+                <h3>UI/UX Optimization</h3>
+                <p>
+                  Meningkatkan pengalaman pengguna melalui desain yang intuitif
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- Experience Start -->
+    <div class="experience" id="experience">
+      <div class="container">
+        <header
+          class="section-header text-center wow zoomIn"
+          data-wow-delay="0.1s"
+        >
+          <p>My Resume</p>
+          <h2>Riwayat Hidup Saya</h2>
+        </header>
+        <div class="timeline">
+          <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+            <div class="timeline-text">
+              <div class="timeline-date">2012 - 2015</div>
+              <h2>Sekolah Menengah Kejuruan (TKJ)</h2>
+              <h4>SMK Dharma Wirawan Pasuruan</h4>
+              <p>
+                Menyelesaikan pendidikan menengah kejuruan dengan fokus pada
+                jaringan komputer, pemrograman dasar, serta administrasi sistem.
+                Memiliki pemahaman kuat dalam instalasi jaringan, konfigurasi
+                server, dan keamanan sistem.
+              </p>
+            </div>
+          </div>
+          <div
+            class="timeline-item right wow slideInRight"
+            data-wow-delay="0.1s"
+          >
+            <div class="timeline-text">
+              <div class="timeline-date">Nov 2013 - Feb 2015</div>
+              <h2>Pendidikan Sistem Ganda</h2>
+              <h4>PT Bina Heksa Pasuruan</h4>
+              <p>
+                Mengikuti Praktik Sistem Ganda (PSG) di PT Bina Heksa Pasuruan,
+                sebuah perusahaan teknologi yang bergerak di bidang layanan IT.
+                Berkontribusi dalam pemeliharaan jaringan komputer perusahaan,
+                troubleshooting perangkat keras & lunak, serta mendukung
+                pengembangan sistem berbasis web internal.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+            <div class="timeline-text">
+              <div class="timeline-date">2015 - 2018</div>
+              <h2>D3 Pemrograman Web</h2>
+              <h4>Universitas Merdeka, Pasuruan</h4>
+              <p>
+                Lulus sebagai ahli madya di bidang pemrograman web dengan fokus
+                pada pengembangan front-end dan back-end. Menguasai berbagai
+                teknologi web modern, termasuk HTML, CSS, JavaScript, serta
+                framework seperti Bootstrap dan React.
+              </p>
+            </div>
+          </div>
+          <div
+            class="timeline-item right wow slideInRight"
+            data-wow-delay="0.1s"
+          >
+            <div class="timeline-text">
+              <div class="timeline-date">2018 - 2019</div>
+              <h2>Pengalaman Kerja & Proyek</h2>
+              <h4>PT Digital Travel Indonesia</h4>
+              <p>
+                Bertugas sebagai salah satu tim pengembang web dalam proyek
+                digitalisasi perusahaan. Berkontribusi dalam merancang dan
+                mengembangkan sistem berbasis web untuk meningkatkan efisiensi
+                operasional di perusahaan travel ini.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+            <div class="timeline-text">
+              <div class="timeline-date">2019 - 2022</div>
+              <h2>Tim Pengembang (Front-End)</h2>
+              <h4>PT Digital Travel Indonesia</h4>
+              <p>
+                Diangkat sebagai Front-End Developer setelah sukses dalam
+                program KKN. Bertanggung jawab dalam membangun dan
+                mengoptimalkan antarmuka web perusahaan, memastikan desain yang
+                responsif dan pengalaman pengguna yang maksimal. Bekerja sama
+                dengan tim backend untuk mengembangkan sistem internal
+                perusahaan.
+              </p>
+            </div>
+          </div>
+          <div
+            class="timeline-item right wow slideInRight"
+            data-wow-delay="0.1s"
+          >
+            <div class="timeline-text">
+              <div class="timeline-date">2022 - sekarang</div>
+              <h2>Tim Pengembang (Front-End)</h2>
+              <h4>BarbershopNdeso Pasuruan</h4>
+              <p>
+                Menjadi bagian dari tim pengembang web di Barbershop Ndeso,
+                perusahaan penyedia layanan pangkas rambut terkenal di Kota
+                Pasuruan. Bertanggung jawab dalam pengembangan dan pemeliharaan
+                website resmi, termasuk integrasi sistem pemesanan online dan
+                optimasi tampilan web agar lebih interaktif dan mudah digunakan
+                oleh pelanggan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Job Experience End -->
+
+    <!-- Banner Start -->
+    <div class="banner wow zoomIn" data-wow-delay="0.1s">
+      <div class="container">
+        <div class="section-header text-center">
+          <p>Harga Wajar</p>
+          <h2>Dapatkan Harga <span>Spesial</span></h2>
+        </div>
+        <div class="container banner-text">
+          <p>
+            Dapatkan harga spesial dengan mengikuti langkah mudah ini! Cukup
+            follow akun Instagram saya @bangceper14, lalu like dan berikan
+            komentar di postingan khusus "Promo Harga Spesial". Jangan lupa tag
+            minimal dua teman di kolom komentar dan bagikan postingan ini ke
+            story dengan mention akun saya. Temukan lebih banyak promo menarik
+            di postingan lainnya atau hubungi saya melalui tombol di bawah.
+            Jangan sampai kelewatan, karena promo ini terbatas!.
+          </p>
+          <a
+            class="btn"
+            href="https://wa.me/6283132676178?text=Saya%20tertarik%20dengan%20promo%20ini,%20bisa%20minta%20info%20lebih%20lanjut?"
+            target="_blank"
+          >
+            Selengkapnya
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Banner End -->
+
+    <!-- Portfolio Start -->
+    <div class="portfolio" id="portfolio">
+      <div class="container">
+        <div
+          class="section-header text-center wow zoomIn"
+          data-wow-delay="0.1s"
+        >
+          <p>Layanan</p>
+          <h2>Layanan Terbaik Saya</h2>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <ul id="portfolio-filter">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-1">Web Design</li>
+              <li data-filter=".filter-2">Template</li>
+              <li data-filter=".filter-3">Design Grafis</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row portfolio-container">
+          <div
+            class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp"
+            data-wow-delay="0.0s"
+          >
+            <div class="portfolio-wrap">
+              <div class="portfolio-img">
+                <img src="img/3.png" alt="Image" />
+              </div>
+              <div class="portfolio-text">
+                <h3>Web Portofolio</h3>
+                <a class="btn" href="img/3.png" data-lightbox="portfolio">+</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp"
+            data-wow-delay="0.2s"
+          >
+            <div class="portfolio-wrap">
+              <div class="portfolio-img">
+                <img src="img/1.png" alt="Image" />
+              </div>
+              <div class="portfolio-text">
+                <h3>Web Template</h3>
+                <a class="btn" href="img/1.png" data-lightbox="portfolio">+</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 filter-2 wow fadeInUp"
+            data-wow-delay="0.4s"
+          >
+            <div class="portfolio-wrap">
+              <div class="portfolio-img">
+                <img src="img/4.png" alt="Image" />
+              </div>
+              <div class="portfolio-text">
+                <h3>Web Design</h3>
+                <a class="btn" href="img/4.png" data-lightbox="portfolio">+</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 filter-1 wow fadeInUp"
+            data-wow-delay="0.6s"
+          >
+            <div class="portfolio-wrap">
+              <div class="portfolio-img">
+                <img src="img/5.png" alt="Image" />
+              </div>
+              <div class="portfolio-text">
+                <h3>Penulisan Artikel</h3>
+                <a class="btn" href="img/5.png" data-lightbox="portfolio">+</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp"
+            data-wow-delay="0.8s"
+          >
+            <div class="portfolio-wrap">
+              <div class="portfolio-img">
+                <img src="img/2.png" alt="Image" />
+              </div>
+              <div class="portfolio-text">
+                <h3>Source Code</h3>
+                <a class="btn" href="img/2.png" data-lightbox="portfolio">+</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp"
+            data-wow-delay="1s"
+          >
+            <div class="portfolio-wrap">
+              <div class="portfolio-img">
+                <img src="img/6.png" alt="Image" />
+              </div>
+              <div class="portfolio-text">
+                <h3>Design Sosmed</h3>
+                <a class="btn" href="img/6.png" data-lightbox="portfolio">+</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio End -->
+
+    <!-- Banner Start -->
+    <div class="banner wow zoomIn" data-wow-delay="0.1s">
+      <div class="container">
+        <div class="section-header text-center">
+          <p>Diskon Luar Biasa</p>
+          <h2>Dapatkan Diskon <span>30%</span></h2>
+        </div>
+        <div class="container banner-text">
+          <p>
+            Nikmati potongan harga spesial sebesar 30% hanya dengan mengajak siapa pun untuk menggunakan layanan saya melalui program referral eksklusif. Tanpa syarat tambahan, cukup ajak teman, keluarga, atau rekan bisnis, dan diskon langsung jadi milikmu!
+
+<p>Untuk informasi lebih lanjut, hubungi saya dengan klik tombol di bawah. Jangan lewatkan kesempatan ini, karena semakin banyak yang kamu ajak, semakin besar keuntungan yang kamu dapatkan!</p>
+          </p>
+          <a class="btn" href="https://wa.me/6283132676178?text=Saya%20tertarik%20dengan%20promo%20ini,%20bisa%20minta%20info%20lebih%20lanjut?" target="_blank">
+            Selengkapnya
+        </a>
+        
+        </div>
+      </div>
+    </div>
+    <!-- Banner End -->
+
+    <!-- Price Start -->
+    <div class="price" id="price">
+      <div class="container">
+        <div
+          class="section-header text-center wow zoomIn"
+          data-wow-delay="0.1s"
+        >
+          <p>Daftar Harga</p>
+          <h2>Harga Terjangkau</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="price-item">
+              <div class="price-header">
+                <div class="price-title">
+                  <h2>Dasar</h2>
+                </div>
+                <div class="price-prices">
+                  <h2><small>Rp </small> 750.000<span>/ Prj</span></h2>
+                </div>
+              </div>
+              <div class="price-body">
+                <div class="price-description">
+                  <ul>
+                    <li>Desain halaman utama yang menarik</li>
+                    <li>Responsif (bisa dibuka di HP & Laptop)</li>
+                    <li>Loading cepat & ringan</li>
+                    <li>Gratis Revisi 1x</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="price-footer">
+                <div class="price-action">
+                  <a href="https://wa.me/p/8898292040238191/6283132696178" class="btn">Order Paket</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.0s">
+            <div class="price-item featured-item">
+              <div class="price-header">
+                <div class="price-title">
+                  <h2>Standar</h2>
+                </div>
+                <div class="price-prices">
+                  <h2><small>Rp</small>1.500.000<span>/ Prj</span></h2>
+                </div>
+              </div>
+              <div class="price-body">
+                <div class="price-description">
+                  <ul>
+                    <li>Semua fitur di Paket Dasar</li>
+                    <li>3 Halaman tambahan (Tentang, Layanan, Kontak)</li>
+                    <li>Integrasi Media Sosial</li>
+                    <li>Gratis Revisi 2x</li>
+                    <li>User Friendly</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="price-footer">
+                <div class="price-action">
+                  <a href="https://wa.me/p/8570143383091863/6283132696178" class="btn">Order Paket</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="price-item">
+              <div class="price-header">
+                <div class="price-title">
+                  <h2>Premium</h2>
+                </div>
+                <div class="price-prices">
+                  <h2><small>Rp</small>2.500.000<span>/ Prj</span></h2>
+                </div>
+              </div>
+              <div class="price-body">
+                <div class="price-description">
+                  <ul>
+                    <li>Semua fitur di Paket Standar</li>
+                    <li>Desain eksklusif & profesional</li>
+                    <li>5 Halaman tambahan sesuai kebutuhan</li>
+                    <li>Animasi interaktif untuk tampilan lebih menarik</li>
+                    <li>Gratis Revisi 3x</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="price-footer">
+                <div class="price-action">
+                  <a href="https://wa.me/p/9860120930670929/6283132696178" class="btn">Order Paket</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Price End -->
+
+    <!-- Testimonial Start -->
+    <div id="testimonial" class="testimonial wow fadeInUp" data-wow-delay="0.1s" id="review">
+      <div class="container">
+        <div class="testimonial-icon">
+          <i class="fa fa-quote-left"></i>
+        </div>
+        <div class="owl-carousel testimonials-carousel">
+          <div class="testimonial-item">
+            <div class="testimonial-img">
+              <img src="img/barber.png" alt="Image" />
+            </div>
+            <div class="testimonial-text">
+              <p>
+                Website yang dibuat sangat membantu pelanggan dalam melakukan booking online. Desainnya modern dan mudah digunakan. Terima kasih!
+              </p>
+              <h3>MASYKUR</h3>
+              <h4>Pemilik Barbershop</h4>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <div class="testimonial-img">
+              <img src="img/ustad.png" alt="Image" />
+            </div>
+            <div class="testimonial-text">
+              <p>
+                Website masjid ini memudahkan jamaah mendapatkan informasi jadwal sholat dan kegiatan. Sangat bermanfaat untuk komunitas kami!
+              </p>
+              <h3>H. SALIM</h3>
+              <h4>Pengurus Masjid</h4>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <div class="testimonial-img">
+              <img src="img/koki.png" alt="Image" />
+            </div>
+            <div class="testimonial-text">
+              <p>
+                Website restoran saya terlihat profesional dengan fitur menu digital dan reservasi online. Sangat puas dengan hasilnya!
+              </p>
+              <h3>Heriyanto</h3>
+              <h4>Pemilik Restoran</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- Team Start -->
+    <div class="team" id="team">
+      <div class="container">
+        <div
+          class="section-header text-center wow zoomIn"
+          data-wow-delay="0.1s"
+        >
+          <p>Proyek</p>
+          <h2>Hasil Proyek Saya</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+            <div class="team-item">
+              <div class="team-img">
+                <img src="1.png" alt="Image" />
+              </div>
+              <div class="team-text">
+                <h2>Barbershop</h2>
+                <h4>Website Barbershop</h4>
+                <p>
+                    Membangun website Barbershop Ndeso dengan fitur booking online dan integrasi media sosial. 
+                </p>
+                <div class="team-social">
+                  <a class="btn" href="https://muhammadarif145.github.io/barbershopndeso/"><i class="fas fa-eye"></i></a><h4>Lihat</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="team-item">
+              <div class="team-img">
+                <img src="2.png" alt="Image" />
+              </div>
+              <div class="team-text">
+                <h2>Balai Desa</h2>
+                <h4>Website Kantor Balaidesa RejosoLor</h4>
+                <p>
+                    Digitalisasi layanan publik dengan informasi dan administrasi online.
+                </p>
+                <div class="team-social">
+                    <a class="btn" href="https://muhammadarif145.github.io/Desa-Rejosolor/"><i class="fas fa-eye"></i></a><h4>Lihat</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="team-item">
+              <div class="team-img">
+                <img src="3.png" alt="Image" />
+              </div>
+              <div class="team-text">
+                <h2>Masjid RejosoLor</h2>
+                <h4>Website Masjid Rejoso, Pasuruan</h4>
+                <p>
+                  Menyediakan jadwal sholat, kegiatan keagamaan, dan penggalangan dana sosial
+                </p>
+                <div class="team-social">
+                    <a class="btn" href="https://muhammadarif145.github.io/Masjid-Rejoso/"><i class="fas fa-eye"></i></a><h4>Lihat</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="team-item">
+              <div class="team-img">
+                <img src="4.png" alt="Image" />
+              </div>
+              <div class="team-text">
+                <h2>Restoran</h2>
+                <h4>Website Restoran</h4>
+                <p>
+                  Desain modern dengan menu digital, sistem reservasi, dan galeri foto.
+                </p>
+                <div class="team-social">
+                    <a class="btn" href="https://muhammadarif145.github.io/Mie-SS/"><i class="fas fa-eye"></i></a><h4>Lihat</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Contact Start -->
+    <div class="team" id="team">
+      
+        <div
+          class="section-header text-center wow zoomIn"
+          data-wow-delay="0.1s"
+        >
+          <p>Saran & Masukan</p>
+          <h2>Kontak Saran Anda</h2>
+        </div>
+    <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4"></div>
+        <div class="col-md-8">
+          <div class="contact-form">
+            
+            <div id="notification" style="display: none; padding: 10px; margin-bottom: 10px; position: relative;">
+              <span id="closeNotification" style="position: absolute; right: 10px; cursor: pointer; font-weight: bold;">❌</span>
+            </div>
+            <form id="contactForm" novalidate>
+              <div class="control-group">
+                <input type="text" class="form-control" id="name" placeholder="Nama Anda" required />
+                <p class="help-block"></p>
+              </div>
+              <div class="control-group">
+                <input type="email" class="form-control" id="email" placeholder="E-mail Anda" required />
+                <p class="help-block"></p>
+              </div>
+              <div class="control-group">
+                <select class="form-control" id="subject" required>
+                  <option value="" disabled selected>Pilih Subjek</option>
+                  <option value="umum">Pertanyaan Umum</option>
+                  <option value="kritik">Kritik & Saran</option>
+                  <option value="dukungan">Dukungan Teknis</option>
+                </select>
+                <p class="help-block"></p>
+              </div>
+              <div class="control-group">
+                <textarea class="form-control" id="message" placeholder="Pesan Anda" required></textarea>
+                <p class="help-block"></p>
+              </div>
+              <div>
+                <button class="btn" type="submit" id="sendMessageButton">Kirim Pesan</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+document.getElementById("contactForm").addEventListener("submit", function (event) {
+  event.preventDefault(); // Mencegah form submit default
+
+  let name = document.getElementById("name").value.trim();
+  let email = document.getElementById("email").value.trim();
+  let subject = document.getElementById("subject").value;
+  let message = document.getElementById("message").value.trim();
+  let notification = document.getElementById("notification");
+  let sendButton = document.getElementById("sendMessageButton");
+
+  // Validasi form
+  if (!name || !email || !subject || !message) {
+    notification.style.display = "block";
+    notification.style.backgroundColor = "#ff4d4d";
+    notification.style.color = "white";
+    notification.innerHTML = "❌ Harap isi semua bidang dengan benar! <span id='closeNotification' style='position: absolute; right: 10px; cursor: pointer; font-weight: bold;'>❌</span>";
+    attachCloseEvent();
+    return;
+  }
+
+  // Ubah tombol menjadi loading
+  sendButton.innerText = "Mengirim...";
+  sendButton.disabled = true;
+
+  // Simulasi pengiriman
+  setTimeout(() => {
+    notification.style.display = "block";
+    notification.style.backgroundColor = "#28a745";
+    notification.style.color = "white";
+    notification.innerHTML = "✅ Pesan Anda berhasil dikirim! <span id='closeNotification' style='position: absolute; right: 10px; cursor: pointer; font-weight: bold;'>❌</span>";
+    attachCloseEvent();
+
+    // Reset form
+    document.getElementById("contactForm").reset();
+
+    // Kembalikan tombol ke keadaan semula
+    sendButton.innerText = "Kirim Pesan";
+    sendButton.disabled = false;
+  }, 2000); // Simulasi delay 2 detik
+});
+
+function attachCloseEvent() {
+  document.getElementById("closeNotification").addEventListener("click", function () {
+    document.getElementById("notification").style.display = "none";
+  });
+}
+</script>
+
+    <!-- Contact End -->
+
+    <!-- Blog Start -->
+    <div class="blog" id="blog">
+      <div class="container">
+        <div
+          class="section-header text-center wow zoomIn"
+          data-wow-delay="0.1s"
+        >
+          <p>Blog Saya</p>
+          <h2>Artikel Terbaru</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="blog-item wow fadeInUp" data-wow-delay="0.1s">
+              <div class="blog-img">
+                <img src="img/blog1.png" alt="Blog" />
+              </div>
+              <div class="blog-text">
+                <h2>Saatnya Klien Anda Menemukan Bisnis Anda!</h2>
+                <div class="blog-meta">
+                  <p><i class="far fa-user"></i>Admin</p>
+                  <p><i class="far fa-list-alt"></i>Landing Page</p>
+                  <p><i class="far fa-calendar-alt"></i>01-Jan-2025</p>
+                  <p><i class="far fa-comments"></i>5</p>
+                </div>
+                <p>
+                  Dengan Landing Page menarik buat kesan  pertama yang memukau dengan landing page yang profesional dan menarik! Tingkatkan visibilitas bisnis Anda, tarik lebih banyak pelanggan, dan ubah pengunjung menjadi klien setia dengan desain yang efektif dan responsif.
+                </p>
+                <a class="btn" href="Blog 2.html"
+                  >Baca Selengkapnya <i class="fa fa-angle-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="blog-item wow fadeInUp" data-wow-delay="0.3s">
+              <div class="blog-img">
+                <img src="img/blog-2.jpg" alt="Blog" />
+              </div>
+              <div class="blog-text">
+                <h2>Bangun Branding Online Anda Sekarang</h2>
+                <div class="blog-meta">
+                  <p><i class="far fa-user"></i>Admin</p>
+                  <p><i class="far fa-list-alt"></i>Web Design</p>
+                  <p><i class="far fa-calendar-alt"></i>01-Jan-2025</p>
+                  <p><i class="far fa-comments"></i>10</p>
+                </div>
+                <p>
+                  Jadikan bisnis Anda lebih dikenal dan dipercaya dengan strategi branding online yang kuat. Mulai dari website profesional, desain visual yang konsisten, hingga kehadiran digital yang maksimal—saatnya bisnis Anda tampil lebih menonjol di dunia online!
+                </p>
+                <a class="btn" href="Blog 3.html"
+                  >Baca Selengkapnya <i class="fa fa-angle-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Blog End -->
+
+    <!-- Footer Start -->
+    <div class="footer wow fadeIn" data-wow-delay="0.3s">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="footer-info">
+            <h2>
+                <img src="img/logo3.png" alt="Logo" style="height: 40px; margin-right: 10px;">
+                <a href="#" style="color: white;">Saiful<u>arif</u></a></h2>
+            <h3>Jl. Raya Rejoso Lor , Kec.Rejoso , Kabupaten Pasuruan</h3>
+            <div class="footer-menu">
+              <p><a href="6283132696178"></a>0831-3269-6178</p>
+              <p>ceperarip07@gmail.com</p>
+            </div>
+            <div class="footer-social">
+              <a href="https://www.instagram.com/muhammadarif" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.facebook.com/muhammadarif" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/muhammadarif" target="_blank"><i class="fab fa-youtube"></i></a>
+              <a href="https://www.instagram.com/muhammadarif" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.instagram.com/muhammadarif" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="container copyright">
+          <p>
+            &copy; <a href="#">Saifularif.com 2025</a>, All Right Reserved |
+
+            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+            Designed Support By <a href="https://htmlcodex.com">HTML Codex</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to top button -->
+    <a href="" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- Whatsapp icon-->
+    <div id="whatsapp-cta">
+      <a
+        href="https://wa.me/083132696178"
+        target="_blank"
+        class="cta-whatsapp"
+        aria-label="Hubungi Saya di WhatsApp"
+      >
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+          alt="WhatsApp Logo"
+          class="w-12 h-12"
+        />
+        <span class="cta-text">Hubungi Saya</span>
+      </a>
+    </div>
+
+    <style>
+      #whatsapp-cta {
+        position: fixed;
+        bottom: 60px;
+        right: 0px;
+        z-index: 50;
+      }
+
+      .cta-whatsapp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90px;
+        height: 90px;
+        border-radius: 100%;
+        transition: transform 0.3s ease;
+
+        position: relative;
+      }
+
+      .cta-whatsapp:hover {
+        transform: scale(1.1);
+      }
+
+      .cta-whatsapp img {
+        width: 60%;
+        height: auto;
+      }
+
+      .cta-text {
+        position: absolute;
+        left: -130px;
+        background-color: #16c255;
+        color: white;
+        padding: 8px 12px;
+        border-radius: 5px;
+        white-space: nowrap;
+        opacity: 0;
+        transform: translateX(10px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        font-size: 14px;
+        font-weight: bold;
+        visibility: hidden;
+      }
+
+      .cta-whatsapp:hover .cta-text {
+        opacity: 1;
+        transform: translateX(0);
+        visibility: visible;
+      }
+    </style>
+
+    <!-- Pre Loader -->
+    <div id="loader" class="show">
+      <div class="loader"></div>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <!--<script src="mail/jqBootstrapValidation.min.js"></script>-->
+   <!--<script src="mail/contact.js"></script>-->
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
